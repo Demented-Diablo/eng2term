@@ -1,0 +1,73 @@
+/* Reset some default browser styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #2d2d44);
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 0.95rem;
+  color: #cfcfcf;
+  margin-bottom: 1.5rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #4cafef;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #3b9bd8;
+}
+
+pre {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.8rem;
+  border-radius: 6px;
+  text-align: left;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: #00ffb7;
+  overflow-x: auto;
+}
